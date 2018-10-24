@@ -1,7 +1,7 @@
 {
   "miniprogramRoot": "./",
   "projectname": "experience-class",
-  "description": "体验课小程序",
+  "description": "个人小程序",
   "appid": "wx2fb3c261e8888cc1",
   "setting": {
     "urlCheck": false,
