@@ -1,0 +1,41 @@
+<block>
+    <view class="downPlatform">
+        <view class="downPlatform-main">
+            <view class="downPlatform-title">
+                <text>熊本熊</text>
+            </view>
+            <view class="downPlatform-title2">
+                <image src="{{Icon}}" class="downPlatform-icon" />
+                <text class="downPlatform-title2-text">本人喜欢用es6方式传值</text>
+            </view>
+            <view class="downPlatform-text">
+                <text class="downPlatform-text-info">,官方的TabBar配置只要在app.js中配</text>
+                <text class="downPlatform-text-info">会出错,所以在使用taro制作小程序时建议使</text>
+                <text class="downPlatform-text-info">官方的TabBar配置只要在app.js中配</text>
+                <text class="downPlatform-text-info">官方的TabBar配置只要在app.js中配</text>
+                <text class="downPlatform-text-info">官方的TabBar配置只要在app.js中配</text>
+            </view>
+            <view class="downPlatform-text downPlatform-text2">
+                <text class="downPlatform-text-info">官方的TabBar配置只要在app.js中配</text>
+                <text class="downPlatform-text-info">官方的TabBar配置只要在app.js中配</text>
+                <text class="downPlatform-text-info">所以在使用taro制作小程序时建议使</text>
+                <text class="downPlatform-text-info">所以在使用taro制作小程序时建议使</text>
+            </view>
+            <view class="downPlatform-text downPlatform-text2">
+                <text class="downPlatform-text-info">所以在使用taro制作小程序时建议使</text>
+                <text class="downPlatform-text-info">所以在使用taro制作小程序时建议使/Mac/安卓平板</text>
+                <text class="downPlatform-text-info">/所以在使用taro制作小程序时建议使</text>
+                <text class="downPlatform-text-info">《课堂规范&所以在使用taro制作小程序时建议使</text>
+                <text class="downPlatform-text-info">视频指南</text>
+                <text class="downPlatform-text-info">所以在使用taro制作小程序时建议使</text>
+            </view>
+            <view class="downPlatform-text downPlatform-text2">
+                <text class="downPlatform-text-info">所以在使用taro制作小程序时建议使</text>
+                <text class="downPlatform-text-info">所以在使用taro制作小程序时建议使</text>
+            </view>
+        </view>
+        <form report-submit="true" bindsubmit="formSubmit">
+            <button form-type="submit" class="downPlatform-btn" bindtap="getStep">下一步</button>
+        </form>
+    </view>
+</block>

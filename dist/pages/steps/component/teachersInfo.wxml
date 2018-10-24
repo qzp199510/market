@@ -1,0 +1,41 @@
+<block>
+    <view class="teacherInfo">
+        <view>
+            <view class="teacherInfo-head">
+                <image src="{{IconTea}}" class="img1" />
+                <text class="text1">这是卡片</text>
+                <view class="teacherInfo-time">
+                    <image src="{{Time}}" class="img2" />
+                    <text class="text2">{{teacherInfo.time}}</text>
+                </view>
+            </view>
+            <view class="info_card">
+                <view class="message">
+                    <image src="{{anonymousState__temp}}" class="info_img" />
+                    <view class="class_info">
+                        <text class="info_text">熊本熊: {{teacherInfo.nickname}}</text>
+                        <text class="info_text">熊本熊: {{teacherInfo.nation}}</text>
+                        <text class="info_text">熊本熊: {{teacherInfo.overall_score}}</text>
+                    </view>
+                </view>
+            </view>
+            <view class="introduction">
+                <text class="info_text">Self-introduction</text>
+                <view class="main">
+                    <text class="main_text">{{teacherInfo.self_intro}}</text>
+                </view>
+            </view>
+            <view class="introduction">
+                <text class="info_text">Self-introduction-video</text>
+                <view class="main_2">
+                    <video class="video" src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"
+                    style="{{anonymousState__temp2}}" controls="{{true}}" custom-cache="{{false}}"
+                    autoplay="{{false}}" bindpause="bindplay" id="video"></video>
+                    <view class="img_box" style="{{anonymousState__temp3}}">
+                        <image class="img" src="{{Play}}" bindtap="play" />
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</block>

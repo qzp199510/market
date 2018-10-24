@@ -1,0 +1,53 @@
+
+.homePage-footer {
+  position: fixed;
+  bottom: 0;
+  height: 112rpx;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.homePage-footer .footerText {
+  padding-top: 64rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 50%;
+  text-align: center;
+  font-size: 24rpx;
+  color: #FFFFFF;
+  position: relative;
+}
+.homePage-footer .footerText .img_class {
+  position: absolute;
+  top: 24rpx;
+  width: 48rpx;
+  height: 36rpx;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+.homePage-footer .footerText .img_person {
+  position: absolute;
+  top: 20rpx;
+  left: 50%;
+  width: 40rpx;
+  height: 44rpx;
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+.homePage-footer .text_class {
+  background-image: -webkit-linear-gradient(96deg, #14C8D2 0%, #52EDC7 100%);
+  background-image: -o-linear-gradient(96deg, #14C8D2 0%, #52EDC7 100%);
+  background-image: linear-gradient(-6deg, #14C8D2 0%, #52EDC7 100%);
+  border-top-left-radius: 30rpx;
+}
+.homePage-footer .text_person {
+  background-image: -webkit-linear-gradient(96deg, #56D7DF 0%, #81F2D7 100%);
+  background-image: -o-linear-gradient(96deg, #56D7DF 0%, #81F2D7 100%);
+  background-image: linear-gradient(-6deg, #56D7DF 0%, #81F2D7 100%);
+  border-top-right-radius: 30rpx;
+}

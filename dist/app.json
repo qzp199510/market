@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/index",
+    "pages/homePage/index",
+    "pages/nullPage/index",
+    "pages/steps/component/downPlatform",
+    "pages/steps/component/beforeClass",
+    "pages/steps/component/instructionLearning",
+    "pages/steps/component/teachersInfo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

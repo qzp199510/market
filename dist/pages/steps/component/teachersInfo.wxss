@@ -1,0 +1,135 @@
+
+.teacherInfo {
+  height: 100%;
+  width: 750rpx;
+  padding: 22rpx 46rpx 0 46rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.teacherInfo .teacherInfo-head {
+  width: 100%;
+  padding-left: 102rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  height: 86rpx;
+}
+.teacherInfo .teacherInfo-head .img1 {
+  position: absolute;
+  left: 0;
+  width: 86rpx;
+  height: 86rpx;
+}
+.teacherInfo .teacherInfo-head .text1 {
+  font-size: 34rpx;
+  color: #292929;
+}
+.teacherInfo .teacherInfo-head .teacherInfo-time {
+  margin-top: -12rpx;
+  padding-left: 42rpx;
+  position: absolute;
+}
+.teacherInfo .teacherInfo-head .teacherInfo-time .img2 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  width: 30rpx;
+  height: 32rpx;
+  margin-right: 12rpx;
+}
+.teacherInfo .teacherInfo-head .teacherInfo-time .text2 {
+  width: 100%;
+  line-height: 20rpx;
+  color: #FF5E85;
+  font-size: 28rpx;
+}
+.teacherInfo .info_card {
+  margin-top: 26rpx;
+  color: #2C2C2C;
+  font-size: 26rpx;
+  width: 660rpx;
+  height: 210rpx;
+  border-radius: 40rpx;
+  -webkit-box-shadow: 0 6rpx 28rpx #ccc;
+          box-shadow: 0 6rpx 28rpx #ccc;
+  padding-left: 40rpx;
+  padding-top: 32rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 46rpx;
+}
+.teacherInfo .info_card .message {
+  position: relative;
+  padding-left: 168rpx;
+  height: 140rpx;
+}
+.teacherInfo .info_card .message .info_img {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #9dbdbf;
+}
+.teacherInfo .info_card .message .class_info {
+  padding-top: 8rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.teacherInfo .info_card .message .class_info .info_text {
+  display: block;
+  margin-bottom: 10rpx;
+}
+.teacherInfo .introduction {
+  margin-bottom: 50rpx;
+}
+.teacherInfo .introduction .info_text {
+  font-size: 36rpx;
+  color: #14C8D2;
+}
+.teacherInfo .introduction .main {
+  margin-top: 20rpx;
+  min-height: 200rpx;
+  border-radius: 40rpx;
+  width: 660rpx;
+  padding: 42rpx 40rpx 42rpx 40rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 6rpx 28rpx #ccc;
+          box-shadow: 0 6rpx 28rpx #ccc;
+  font-size: 22rpx;
+  color: #939393;
+}
+.teacherInfo .introduction .main_2 {
+  margin-top: 20rpx;
+  width: 660rpx;
+  height: 300rpx;
+  border-radius: 48rpx;
+  position: relative;
+}
+.teacherInfo .introduction .main_2 .video {
+  width: 100%;
+  border-radius: 48rpx;
+  height: 300rpx;
+  position: absolute;
+}
+.teacherInfo .introduction .main_2 .img_box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.teacherInfo .introduction .main_2 .img_box .img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 84rpx;
+  height: 84rpx;
+}

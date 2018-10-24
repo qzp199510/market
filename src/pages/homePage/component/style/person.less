@@ -1,0 +1,94 @@
+.person{
+    padding-top: 60px;
+    box-sizing: border-box;
+    &-img{
+        width: 140px;
+        height: 140px;
+        border-radius: 100%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &-head{
+        background-image:url(https://qn-static.landi.com/uploadtool42f03d71be3623fe0e7e19366516a83b.png);
+        background-size: cover;
+        width: 148px;
+        height: 148px;
+        margin: 0 auto;
+        border-radius: 100%;
+        position: relative;
+    }
+    &-name{
+        width: 100%;
+        text-align: center;
+        margin-top: 26px;
+        color: #2C2C2C;
+        font-size: 28px;
+    }
+    &-centext{
+        display: flex;
+    }
+    &-class{
+        width: 600px;
+        padding:0 0 30px 0;
+        margin:0 0 0 40px;
+        box-sizing: border-box;
+        height: 120px;
+        margin-top: 84px;
+        border-bottom: 1px solid #eee;
+        &-left{
+            padding-left: 110px;    
+            box-sizing: border-box;
+            position: relative;   
+        }
+        &-img1{
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translate(0, -50%);
+            width: 90px;
+            height: 90px;
+        }
+        &-text1{
+            color: #333;
+            font-size: 28px;     
+        }
+        &-text2{
+            color: #999999;
+            font-size: 22px;
+            position: absolute;
+            right: 0;
+        }
+        .text{
+            line-height: 90px;
+        }
+    }
+    .person-class-right{
+        margin-top: 84px;
+        height: 90px;
+        padding-bottom: 30px;
+        box-sizing: border-box;
+        position: relative;
+        width: 50px;
+        margin-left: 20px;
+        .person-class-img2{
+            width: 48px;
+            height: 48px;
+            position: absolute;
+            left: 0%;
+            top: 50%;
+            transform: translate(0, -50%);
+            
+        }
+    }
+    &-logout{
+        width: 100%;
+        margin: 72px auto 0 auto;
+        text-align: center;
+        &-btn{
+            color: #999999;
+            font-size: 24px;
+        }
+    }
+}

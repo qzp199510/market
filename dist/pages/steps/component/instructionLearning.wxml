@@ -1,0 +1,27 @@
+<block>
+    <view class="beforeClass">
+        <block wx:if="{{imagesShow}}">
+            <view class="images_show">
+                <view class="video">
+                    <video src="{{videoInfo}}" controls="{{true}}" custom-cache="{{false}}"
+                    autoplay="{{true}}" bindpause="bindplay" id="video"></video>
+                </view>
+                <text bindtap="closeImage" class="images_x">×</text>
+            </view>
+        </block>
+        <view class="beforeClass-main">
+            <view class="card" wx:key="{{index}}" bindtap="showImage" wx:for="{{cardInfo}}"
+            wx:for-item="list" wx:for-index="index" data-e-showImage-so="this" data-e-showImage-a-a="{{list.id}}">
+                <view class="card-main">
+                    <image src="{{list.leftImg}}" class="card-left-img" />
+                    <view class="card-text">
+                        <text class="card-text-title">{{list.title}}</text>
+                        <text class="card-text-introduc">{{list.introduc}}</text>
+                    </view>
+                    <image src="{{list.rightImg}}" class="card-right-img" />
+                </view>
+            </view>
+        </view>
+        <text class="beforeClass-btn" bindtap="getLearning">下一步</text>
+    </view>
+</block>

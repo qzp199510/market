@@ -1,0 +1,30 @@
+<block>
+    <view class="null_page">
+        <view class="null_page_logo">
+            <image src="{{yellow}}" class="null_page_img" />
+            <text class="null_page_text text">就可以进入小程序开发环境进行开发了</text>
+            <text class="null_page_text">就可以进入小程序开发环境进行开发了</text>
+        </view>
+        <view class="classInfo-centext" bindtap="getPage">
+            <image src="{{remain}}" class="classInfo-centext_img" />
+            <view class="classInfo-info">
+                <text class="classInfo-centext_title">登陆错误</text>
+            </view>
+            <view class="classInfo-centext_introduce">执行 cnpm run dev:weapp命令,就可以进入小程序开发环境进行开发了
+                <text class="btn_color">立即切换</text>
+            </view>
+            <image src="{{yellow}}" class="logout_icon" />
+        </view>
+        <view class="classInfo-centext">
+            <image src="{{error}}" class="classInfo-centext_img" />
+            <view class="classInfo-info">
+                <text class="classInfo-centext_title">忘记</text>
+            </view>
+            <view class="classInfo-centext_introduce">执行 cnpm run dev:weapp命令,就可以进入小程序开发环境进行开发了
+                <button session-from="{{formInfo}}"
+                class="btn_color" open-type="contact">在线客服</button>执以进入小程序开发环境进行开发了</view>
+            <image src="{{pink}}" class="logout_icon"
+            />
+        </view>
+    </view>
+</block>

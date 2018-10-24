@@ -1,0 +1,24 @@
+<block>
+    <view class="homePage">
+        <view class="main">
+            <view style="{{anonymousState__temp}}">
+                <class-info __triggerObserer="{{ _triggerObserer }}"></class-info>
+            </view>
+            <view style="{{anonymousState__temp2}}">
+                <person-info __triggerObserer="{{ _triggerObserer }}"></person-info>
+            </view>
+        </view>
+        <view class="homePage-footer">
+            <view class="footerText text_class" bindtap="changeTags" style="{{anonymousState__temp3}}"
+            data-e-changeTags-so="this" data-e-changeTags-a-a="{{0}}">
+                <image src="{{classImg}}" class="img_class" />
+                <text class="text">熊本熊</text>
+            </view>
+            <view class="footerText text_person" bindtap="changeTags" style="{{anonymousState__temp4}}"
+            data-e-changeTags-so="this" data-e-changeTags-a-a="{{1}}">
+                <image src="{{person}}" class="img_person" />
+                <text class="text">我的</text>
+            </view>
+        </view>
+    </view>
+</block>

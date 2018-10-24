@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "class-info": "./component/classInfo",
+    "person-info": "./component/person"
+  },
+  "navigationBarTitleText": "熊本熊"
+}

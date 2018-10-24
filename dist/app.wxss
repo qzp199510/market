@@ -1,0 +1,7 @@
+
+button::after {
+  border: none;
+}
+page {
+  height: 100%;
+}

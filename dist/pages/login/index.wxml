@@ -1,0 +1,38 @@
+<block>
+    <view class="login" style="background-image: url();background-color: black;">
+        <view class="mongolian_layer">
+            <view class="login-img2">
+                <image src="" />
+            </view>
+            <view class="login-text">
+                <text class="login-p">如好的师傅黄金时间快点放假快点睡觉看哈</text>
+                <text class="login-p">东方斯卡拉方式~</text>
+            </view>
+            <view class="login-phone">
+                <image src="{{phoneImg}}" class="login-phone_images" />
+                <text class="login-phone-text">|</text>
+                <input type="number" placeholder="请输入手机号" placeholder-style="color:rgb(255,255,255)"
+                class="login-phone-inp" maxlength="11" value="{{phone}}" bindinput="changePhone"
+                />
+            </view>
+            <view class="login-code">
+                <view class="login-code_main">
+                    <image src="{{codeImg}}" class="login-phone_images login-code_images"
+                    />
+                    <text class="login-code_main-text">|</text>
+                    <input type="number" placeholder="请输入验证码" placeholder-style="color:rgb(255,255,255)"
+                    class="login-code_main-inp" maxlength="6" value="{{code}}" bindinput="changeCode"
+                    />
+                </view>
+                <button class="login-code-btn" bindtap="getCode" disabled="{{disabledCode}}">{{obtainYzm}}</button>
+            </view>
+            <view class="login-errMessage">
+                <text class="login-message" style="">{{errMessage}}</text>
+            </view>
+            <form report-submit="true" bindsubmit="formSubmit">
+                <button class="login-btn" form-type="submit" bindtap="login" disabled="{{disabled}}"
+                style="{{anonymousState__temp}}" data-e-login-so="this">登录</button>
+            </form>
+        </view>
+    </view>
+</block>

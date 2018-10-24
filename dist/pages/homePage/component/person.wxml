@@ -1,0 +1,33 @@
+<block>
+    <view class="person">
+        <view class="person-head">
+            <image src="{{userInfo.avatar}}" bindtap="getPageUrl" class="person-img"
+            />
+        </view>
+        <view class="person-name">
+            <block>
+                <block wx:if="{{getLogin}}">
+                    <text class="person-name-text" bindtap="getLoginPage">{{userInfo.nickname}}</text>
+                </block>
+                <block wx:else>
+                    <text class="person-name-text">{{userInfo.nickname}}</text>
+                </block>
+            </block>
+        </view>
+        <view class="person-centext" bindtap="getPage">
+            <view class="person-class">
+                <view class="person-class-left">
+                    <image src="{{myClass}}" class="person-class-img1" />
+                    <text class="person-class-text1 text">熊本熊</text>
+                    <text class="person-class-text2 text">查看</text>
+                </view>
+            </view>
+            <view class="person-class-right">
+                <image src="{{getClass}}" class="person-class-img2" />
+            </view>
+        </view>
+        <view class="person-logout">
+            <text class="person-logout-btn" bindtap="logout" style="{{anonymousState__temp}}">退出登录</text>
+        </view>
+    </view>
+</block>

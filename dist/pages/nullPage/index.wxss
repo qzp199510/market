@@ -1,0 +1,86 @@
+
+.null_page {
+  width: 100%;
+  height: 100%;
+}
+.null_page .null_page_logo {
+  margin-top: 80rpx;
+  margin-bottom: 136rpx;
+}
+.null_page .null_page_logo .null_page_img {
+  margin: 0 auto;
+  display: block;
+  width: 246rpx;
+  height: 246rpx;
+}
+.null_page .null_page_logo .text {
+  margin-top: 30rpx;
+}
+.null_page .null_page_logo .null_page_text {
+  text-align: center;
+  display: block;
+  color: #333333;
+  font-size: 28rpx;
+}
+.null_page .classInfo-centext {
+  height: 120rpx;
+  padding: 4rpx 48rpx 0 110rpx;
+  position: relative;
+  border-bottom: 1rpx solid #EEEEEE;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 40rpx 40rpx 40rpx;
+}
+.null_page .classInfo-centext_img {
+  width: 90rpx;
+  height: 90rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.null_page .classInfo-centext .classInfo-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: -6rpx;
+  position: relative;
+}
+.null_page .classInfo-centext_title {
+  color: #333333;
+  font-size: 28rpx;
+  height: 28rpx;
+  line-height: 28rpx;
+  margin-bottom: 12rpx;
+}
+.null_page .classInfo-centext_introduce {
+  font-size: 22rpx;
+  color: #999999;
+  line-height: 24rpx;
+  width: 430rpx;
+  display: block;
+}
+.null_page .classInfo-centext .btn_color {
+  font-size: 22rpx;
+  color: #17C8D2;
+  margin-left: -4rpx;
+  display: inline;
+}
+.null_page .classInfo-centext .button-hover {
+  color: none;
+}
+.null_page .classInfo-centext button {
+  padding: 0;
+  line-height: 0;
+  background-color: #fff;
+}
+.null_page .classInfo-centext .logout_icon {
+  width: 48rpx;
+  height: 48rpx;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translate(0, -80%);
+      -ms-transform: translate(0, -80%);
+          transform: translate(0, -80%);
+}

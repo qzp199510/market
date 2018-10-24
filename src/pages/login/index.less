@@ -1,0 +1,125 @@
+.border-radius(@a) {
+    border-radius: @a;
+}
+
+.login-phone {
+    margin-top: 40px;
+    margin-left: 124px;
+    .border-radius(50px);
+    padding-left: 84px;
+    font-size: 20px;
+    box-sizing: border-box;
+    width: 502px;
+    display: flex;
+    height: 66px;
+    background-color: rgba(255, 255, 255, 0.36);
+    margin-bottom: 10px;
+    color: white;
+    position: relative;
+    &_images{
+        position: absolute;
+        left: 34px;
+        top: 50%;
+        transform:translate(0,-50%);
+        width: 34px;
+        height:36px;
+    }
+    .login-code_images{
+        width: 38px;
+        height:28px;
+    }
+}
+
+.login-phone-text {
+    line-height: 60px;
+    font-size: 30px;
+}
+
+.login-phone-inp {
+    height: 100%;
+    margin-left: 12px;
+    width: 100%;
+}
+
+.place-holder{
+    color: #FFFFFF;
+}
+
+.login {
+    width: 750px;
+    height: 100%;
+    .mongolian_layer {
+        padding-top: 60px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.56);
+    }
+    &-text {
+        .login-p {
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 30px;
+            display: block;
+            margin-top: 10px;
+        }
+    }
+    &-img2 {
+        width: 218px;
+        height: 196px;
+        margin: 0 auto;
+        margin-bottom: 42px;
+        &_logo {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &-code {
+        display: flex;
+        width: 100%;
+        height: 66px;
+        margin-top: 20px;
+        &_main {
+            &:extend(.login-phone);
+            width: 330px;
+            margin-top: 0;
+            &-text {
+                &:extend(.login-phone-text);
+            }
+            &-inp {
+                &:extend(.login-phone-inp);
+            }
+        }
+        &-btn {
+            color: black;
+            margin-left: 14px;
+            background-color: #FFE400;
+            height: 66px;
+            font-size: 20px;
+            line-height: 66px;
+            width: 160px;
+            .border-radius(50px);
+        }
+    }
+    &-errMessage{
+        height: 36px;
+        color: #EA050E;
+        padding-left: 140px;
+        box-sizing: border-box;
+        line-height: 18px;   
+    }
+    &-message{
+        font-size: 20px;
+    }
+    &-btn {
+        margin-left: 124px;
+        .border-radius(50px);
+        line-height: 66px;
+        width: 502px;
+        height: 66px;
+        border: none;
+        text-align: center;
+        color: white;
+    }
+}

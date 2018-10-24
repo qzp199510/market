@@ -1,0 +1,85 @@
+{
+	"miniprogramRoot": "dist/",
+	"projectname": "experience-class",
+	"description": "个人小程序",
+	"appid": "wx2fb3c261e8888cc1",
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 6,
+			"list": [
+				{
+					"id": -1,
+					"name": "mun",
+					"pathName": "pages/index/index",
+					"query": "sid=123",
+					"scene": "1008"
+				},
+				{
+					"id": 1,
+					"name": "mun",
+					"pathName": "pages/index/index",
+					"query": "ccid=rSH_c2PSx3XGh6i5deXo",
+					"scene": "1011"
+				},
+				{
+					"id": -1,
+					"name": "mun",
+					"pathName": "pages/index/index",
+					"query": "ccid=rSH_c2PSx3XGh6i5deXo",
+					"scene": "1012"
+				},
+				{
+					"id": -1,
+					"name": "mun",
+					"pathName": "pages/index/index",
+					"query": "scene=123&type=123",
+					"scene": "1012"
+				},
+				{
+					"id": -1,
+					"name": "mun",
+					"pathName": "pages/login/index",
+					"query": "",
+					"scene": "1007"
+				},
+				{
+					"id": 5,
+					"name": "index",
+					"pathName": "pages/index/index",
+					"query": "shareid=rSH_c2PSx3XGh6i5deXo&type=1",
+					"scene": "1007"
+				},
+				{
+					"id": -1,
+					"name": "index",
+					"pathName": "pages/homePage/index",
+					"query": "shareid=rSH_c2PSx3XGh6i5deXo&type=1",
+					"scene": "1007"
+				}
+			]
+		}
+	}
+}

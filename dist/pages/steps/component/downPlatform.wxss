@@ -1,0 +1,65 @@
+
+.downPlatform {
+  width: 750rpx;
+  height: 100%;
+  padding-top: 12rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.downPlatform-main {
+  margin: 0 0 30rpx 48rpx;
+  width: 660rpx;
+  -webkit-box-shadow: 0 0 20rpx #bbb;
+          box-shadow: 0 0 20rpx #bbb;
+  border-radius: 50rpx;
+  background: url(https://qn-static.landi.com/uploadtoolf8f7a39de630af9f76d2262af8b4a397.png) no-repeat;
+  background-size: 100% 132rpx;
+  padding: 172rpx 0 40rpx 60rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.downPlatform-main .downPlatform-title {
+  color: #2C2C2C;
+  font-size: 40rpx;
+  margin-bottom: 22rpx;
+}
+.downPlatform-main .downPlatform-title2 {
+  height: 40rpx;
+  padding-left: 42rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #FF5E85;
+  font-size: 28rpx;
+  position: relative;
+}
+.downPlatform-main .downPlatform-title2 .downPlatform-icon {
+  height: 40rpx;
+  width: 36rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.downPlatform-main .downPlatform-text {
+  margin-top: 34rpx;
+}
+.downPlatform-main .downPlatform-text-info {
+  display: block;
+  color: #939393;
+  font-size: 24rpx;
+}
+.downPlatform-main .downPlatform-text2 {
+  margin-top: 28rpx;
+}
+.downPlatform-btn {
+  width: 660rpx;
+  height: 110rpx;
+  border-radius: 55rpx;
+  -webkit-box-shadow: 0 0 20rpx #bbb;
+          box-shadow: 0 0 20rpx #bbb;
+  background-image: -webkit-linear-gradient(96deg, #56D7DF 0%, #81F2D7 100%);
+  background-image: -o-linear-gradient(96deg, #56D7DF 0%, #81F2D7 100%);
+  background-image: linear-gradient(-6deg, #56D7DF 0%, #81F2D7 100%);
+  font-size: 40rpx;
+  color: #fff;
+  line-height: 110rpx;
+}

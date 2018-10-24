@@ -1,0 +1,107 @@
+
+.person {
+  padding-top: 60rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.person-img {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.person-head {
+  background-image: url(https://qn-static.landi.com/uploadtool42f03d71be3623fe0e7e19366516a83b.png);
+  background-size: cover;
+  width: 148rpx;
+  height: 148rpx;
+  margin: 0 auto;
+  border-radius: 100%;
+  position: relative;
+}
+.person-name {
+  width: 100%;
+  text-align: center;
+  margin-top: 26rpx;
+  color: #2C2C2C;
+  font-size: 28rpx;
+}
+.person-centext {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.person-class {
+  width: 600rpx;
+  padding: 0 0 30rpx 0;
+  margin: 0 0 0 40rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 120rpx;
+  margin-top: 84rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.person-class-left {
+  padding-left: 110rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+}
+.person-class-img1 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  width: 90rpx;
+  height: 90rpx;
+}
+.person-class-text1 {
+  color: #333;
+  font-size: 28rpx;
+}
+.person-class-text2 {
+  color: #999999;
+  font-size: 22rpx;
+  position: absolute;
+  right: 0;
+}
+.person-class .text {
+  line-height: 90rpx;
+}
+.person .person-class-right {
+  margin-top: 84rpx;
+  height: 90rpx;
+  padding-bottom: 30rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  width: 50rpx;
+  margin-left: 20rpx;
+}
+.person .person-class-right .person-class-img2 {
+  width: 48rpx;
+  height: 48rpx;
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+.person-logout {
+  width: 100%;
+  margin: 72rpx auto 0 auto;
+  text-align: center;
+}
+.person-logout-btn {
+  color: #999999;
+  font-size: 24rpx;
+}

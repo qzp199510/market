@@ -1,0 +1,123 @@
+
+.login-phone,
+.login-code_main {
+  margin-top: 40rpx;
+  margin-left: 124rpx;
+  border-radius: 50rpx;
+  padding-left: 84rpx;
+  font-size: 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 502rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 66rpx;
+  background-color: rgba(255, 255, 255, 0.36);
+  margin-bottom: 10rpx;
+  color: white;
+  position: relative;
+}
+.login-phone_images {
+  position: absolute;
+  left: 34rpx;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  width: 34rpx;
+  height: 36rpx;
+}
+.login-phone .login-code_images {
+  width: 38rpx;
+  height: 28rpx;
+}
+.login-phone-text,
+.login-code_main-text {
+  line-height: 60rpx;
+  font-size: 30rpx;
+}
+.login-phone-inp,
+.login-code_main-inp {
+  height: 100%;
+  margin-left: 12rpx;
+  width: 100%;
+}
+.place-holder {
+  color: #FFFFFF;
+}
+.login {
+  width: 750rpx;
+  height: 100%;
+}
+.login .mongolian_layer {
+  padding-top: 60rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.56);
+}
+.login-text .login-p {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 30rpx;
+  display: block;
+  margin-top: 10rpx;
+}
+.login-img2 {
+  width: 218rpx;
+  height: 196rpx;
+  margin: 0 auto;
+  margin-bottom: 42rpx;
+}
+.login-img2_logo {
+  width: 100%;
+  height: 100%;
+}
+.login-code {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 66rpx;
+  margin-top: 20rpx;
+}
+.login-code_main {
+  width: 330rpx;
+  margin-top: 0;
+}
+.login-code-btn {
+  color: black;
+  margin-left: 14rpx;
+  background-color: #FFE400;
+  height: 66rpx;
+  font-size: 20rpx;
+  line-height: 66rpx;
+  width: 160rpx;
+  border-radius: 50rpx;
+}
+.login-errMessage {
+  height: 36rpx;
+  color: #EA050E;
+  padding-left: 140rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 18rpx;
+}
+.login-message {
+  font-size: 20rpx;
+}
+.login-btn {
+  margin-left: 124rpx;
+  border-radius: 50rpx;
+  line-height: 66rpx;
+  width: 502rpx;
+  height: 66rpx;
+  border: none;
+  text-align: center;
+  color: white;
+}

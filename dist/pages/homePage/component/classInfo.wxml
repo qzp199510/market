@@ -1,0 +1,20 @@
+<block>
+    <view class="classInfo">
+        <view>
+            <view class="classInfo-banner">
+                <image src="{{userInfo.banner}}" class="img_class" bindtap="goPage" />
+            </view>
+            <view class="main">
+                <view class="classInfo-centext" wx:key="{{list.id}}" bindtap="changeSteps"
+                wx:for="{{stepInfo}}" wx:for-item="list" data-e-changeSteps-so="this" data-e-changeSteps-a-a="{{list.id}}">
+                    <image src="{{list.imgUrl}}" class="classInfo-centext_img" />
+                    <view class="classInfo-info" wx:key="{{list.id}}">
+                        <text class="classInfo-centext_title">{{list.title}}</text>
+                        <text class="classInfo-centext_status">{{list.status}}</text>
+                    </view>
+                    <text class="classInfo-centext_introduce">{{list.introduce}}</text>
+                </view>
+            </view>
+        </view>
+    </view>
+</block>

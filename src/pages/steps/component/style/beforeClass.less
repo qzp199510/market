@@ -1,0 +1,38 @@
+.beforeClass {
+    width: 750px;
+    background-color: #eee;
+    height: 100%;
+    .beforeClass-main {
+        padding: 34px 40px 0 40px;
+        box-sizing: border-box;
+    }
+    .images_show {
+        overflow: auto;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 9999999999;
+        opacity: 0.9;
+        background: rgba(0, 0, 0, 0.7);
+        .video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .long_images {
+            padding: 0 2%;
+            width: 96%;
+            padding-top: 2%;
+        }
+        .images_x {
+            color: white;
+            font-size: 100px;
+            position: absolute;
+            right: 5px;
+            top: -30px;
+        }
+    }
+}

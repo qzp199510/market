@@ -1,0 +1,15 @@
+<block>
+    <view class="index" style="background-image: url();background-color: black;">
+        <view class="index-img">
+            <image src="" class="index-img2_logo" />
+        </view>
+        <view class="index-img2">
+            <image src="" class="index-img_logo" />
+        </view>
+        <form report-submit="true" bindsubmit="formSubmit">
+            <button class="index-btn" bindtap="getLoginPage">手机验证登录</button>
+            <button class="index-btn" form-type="submit" open-type="getPhoneNumber"
+            bindgetphonenumber="getPhoneNumber" data-e-getPhoneNumber-so="this">微信快速登录</button>
+        </form>
+    </view>
+</block>
